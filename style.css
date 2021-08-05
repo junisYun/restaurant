@@ -91,6 +91,19 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: rgba(6, 156, 84, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--first-color);
+  border-radius: 5rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--first-color-alt);
+}
+
 /* class css */
 .section {
   padding: 4rem 0 2rem;
